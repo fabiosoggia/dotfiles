@@ -244,3 +244,8 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+# Use 'notify Hello world' to show a notification message
+function notify () {
+    osascript -e 'display notification \"$*\" with title \"Hey!\" sound name \"Tink\"';
+}
