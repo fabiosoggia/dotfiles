@@ -1,4 +1,4 @@
-# Make vim the default editor
+# Make subl the default editor
 export EDITOR="subl";
 
 # Larger bash history (allow 32³ entries; default is 500)
@@ -22,7 +22,7 @@ export MANPAGER="less -X";
 export GREP_OPTIONS="--color=auto";
 
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
-export HOMEBREW_CASK_OPTS="--appdir=/Applications";
+# export HOMEBREW_CASK_OPTS="--appdir=/Applications";
 
 # Java
 export JAVA_HOME=$(/usr/libexec/java_home)
